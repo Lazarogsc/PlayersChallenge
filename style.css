@@ -1,0 +1,82 @@
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.btn-iniciar {
+	background-color: red;
+  }
+
+.btn-verificar{
+	background-color: red;
+}
+
+.recomecarBotao{
+	text-align: center;
+    display: inline-block;
+}
+
+.btn-recomecar{
+	
+	background-color: red;
+}
+
+select{
+	background-color: transparent;
+	color:rgb(255, 0, 0);
+}
+
+option {
+	background-color: transparent;
+  }
+
+h1, h2 {
+	font-size: 2rem;
+}
+
+.color-p {
+	color: red;
+  }
+
+
+select, input {
+	padding: 5px 10px;
+	font-size: 1.2rem;
+}
+
+button {
+	padding: 10px 20px;
+	font-size: 1.2rem;
+	background-color: #1093ab;
+	color: #0f0202;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+button:hover {
+	background-color: #c1c1c1;
+}
+
+#resultado {
+	font-size: 1.5rem;
+	margin-top: 20px;
+}
+
+body {
+	background-image: url('https://storage.googleapis.com/field-blog.appspot.com/1/2020/02/medidas_campo_futebol_field.jpeg');
+	background-size: cover;
+	color: rgb(255, 255, 255);
+  }
+
+.imagem-container img{
+	width: 63px;
+	float: right;
+	display: block;
+	clear: both;
+	margin-bottom: 10px;
+}
+
+

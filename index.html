@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<link rel="shortcut icon" href="https://bolao.com.vc/up/ia/210708/favicon.png" type="image/x-icon">
+	<title>Players Challenge</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body
+	style="background-image:url(https://storage.googleapis.com/field-blog.appspot.com/1/2020/02/medidas_campo_futebol_field.jpeg) ;">
+	<div class="imagem-container">
+		<img src="https://seeklogo.com/images/S/SPFC-logo-60964749A7-seeklogo.com.png" alt="Escudo do São Paulo">
+		<img src="https://logodownload.org/wp-content/uploads/2016/09/flamengo-logo-escudo-novo.png"
+			alt="Escudo do Flamengo">
+		<img src="https://logodownload.org/wp-content/uploads/2016/09/vasco-logo.png" alt="Escudo do Vasco">
+	</div>
+	<ol id="Todos-Jogadores" type="1">
+		<li>Arrascaeta</li>
+		<li>Bruno Henrique</li>
+		<li>Gabigol</li>
+		<li>Calleri</li>
+		<li>Luciano</li>
+		<li>Gabi Neves</li>
+		<li>Andrey</li>
+		<li>Gabriel Pec</li>
+		<li>Marlon Gomes</li>
+	</ol>
+	<div class="container">
+		<h1>Digite o nome dos jogadores do seu time correto e teste seu nivel de conhecimento!</h1>
+		<hr>
+		<p class="color-p1"><b>Escolha o seu time:</b></p>
+		<hr>
+		<select id="select-time">
+			<option value="vasco">Vasco</option>
+			<option value="sao-paulo">São Paulo</option>
+			<option value="flamengo">Flamengo</option>
+		</select>
+		<button id="btn-iniciar" class="btn-iniciar" onclick="iniciarQuiz()">Iniciar</button>
+		<div id="quiz-container" class="quiz-container" style="display: none;">
+			<h2> Jogadores do <span id="nome-time"></span></h2>
+			<p class="color-p"><b>Digite o nome de um jogador do seu time:</b></p>
+			<input type="text" id="input-jogador">
+			<button id="btn-verificar" class="btn-verificar" onclick="verificarJogador()">Verificar</button>
+			<p id="resultado"></p>
+			<div class="recomecarBotao">
+				<button id="btn-recomecar" class="btn-recomecar" onclick="recomecarQuiz()"
+					style="display: none;">Recomeçar</button>
+			</div>
+		</div>
+		<script src="start.js"></script>
+		<script src="script.js"></script>
+
+</body>
+
+</html>
